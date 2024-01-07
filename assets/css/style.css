@@ -68,11 +68,14 @@ h6 {
   background: #040b14;
   overflow-y: auto;
 }
+
 #header .profile img {
   margin: 15px auto;
   display: block;
-  width: 120px;
-  border: 8px solid #2c2f3f;
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  border: 5px solid #2c2f3f;
 }
 #header .profile h1 {
   font-size: 24px;
@@ -204,6 +207,7 @@ h6 {
   height: 100vh;
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
+  background-position: center;
 }
 #hero:before {
   content: "";
@@ -734,8 +738,9 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-.contact {
-  padding-bottom: 130px;
+.contact{
+  padding: 60px 0 0 0;
+  overflow: hidden;
 }
 .contact .info {
   padding: 30px;
